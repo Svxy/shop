@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #960014;
+    scroll-behavior: smooth;
+}
+
+main{
+    background-color: #c5001a;
+}
+
+hr.style-two {
+    border: 0;
+    height: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+#coming-soon{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+header{
+    background-color: #960014;
+}
+.navbar-brand img{
+    width: 550px;
+    height: 80px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h5{
+    color: #363958;
+}
+
+.name1{
+    color: #6200be;
+}
+
+.name2{
+    color: #58000c;
+}
+
+.btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+.card img{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.price{
+    color: #FA804C;
+}
+
+.title{
+    color: #363958;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.feature{
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 688px){
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .title{
+        font-size: 36px;
+    }
+
+    .navbar-brand img{
+        width: 192.75px;
+        height: 26px;
+    }
+}
